@@ -29,6 +29,9 @@
     float: right;
 
 }
+.hero_content_wrap{
+  color: white;
+}
 .box1{
     float: left;
     width: 27%;
