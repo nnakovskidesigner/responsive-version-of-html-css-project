@@ -1,0 +1,75 @@
+.full-width{
+    width: 100%;
+    /* background-color: blue; */
+    height: 400px;
+    
+}
+.inner{
+    width: 1280px;
+    /* background-color: white; */
+    height: 300px;
+    margin: 0 auto;
+}
+.bg-image {
+    background-image: url(/assets/css/images/banner.jpg);
+    background-size: cover;
+}
+
+.white-background{
+    
+    background-color: white;
+}
+.blue-background {
+    background-color: #5385c1;
+}
+.logo {
+    display: inline;
+}
+.navigation {
+    float: right;
+
+}
+.box1{
+    float: left;
+    width: 27%;
+    padding-right: 4%;
+    /* padding-left: 4%; */
+    border-right: 1px solid black;
+}
+.box2{
+    float: left;
+    width: 27%;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-right: 1px solid black;
+}
+.box3{
+    float: left;
+    width: 27%;
+    /* padding-right: 4%; */
+    padding-left: 4%;
+}
+.peoplebox1 {
+    border: 1px solid white;
+    width: 21.5%;
+    height: 30%;
+}
+.inner h1{
+    text-align: center;
+}
+.inner p{
+    text-align: center;
+}
+.first-column{
+    float: left;
+    width: 48%;
+    background-color: cyan;
+    height: 300px;
+    margin-right: 4%;
+}
+.second-column{
+    float: left;
+    width: 48%;
+    background-color: yellow;
+    height: 300px;
+}
