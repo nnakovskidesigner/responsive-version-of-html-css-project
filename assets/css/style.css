@@ -80,6 +80,9 @@
   float: left;
   text-align: center;
 }
+.peoplebox1,.peoplebox2, .peoplebox3, .peoplebox4 {
+  color: white;
+}
 .peoplebox4 {
   margin-left: 4%;
   border: 1px solid white;
