@@ -29,8 +29,12 @@
     float: right;
 
 }
+
 .hero_content_wrap{
   color: white;
+}
+.box1, .box2, .box3{
+  margin-top: 10%;
 }
 .box1{
     float: left;
@@ -48,21 +52,48 @@
 }
 .box3{
     float: left;
-    width: 27%;
+    width: 29%;
     /* padding-right: 4%; */
     padding-left: 4%;
+    text-align: left;
 }
 .peoplebox1 {
     border: 1px solid white;
     width: 21.5%;
     height: 30%;
-}
-.inner h1{
+    float: left;
     text-align: center;
 }
-.inner p{
-    text-align: center;
+.peoplebox2 {
+  margin-left: 4%;
+  border: 1px solid white;
+  width: 21.5%;
+  height: 30%;
+  float: left;
+  text-align: center;
 }
+.peoplebox3 {
+  margin-left: 4%;
+  border: 1px solid white;
+  width: 21.5%;
+  height: 30%;
+  float: left;
+  text-align: center;
+}
+.peoplebox4 {
+  margin-left: 4%;
+  border: 1px solid white;
+  width: 21.5%;
+  height: 30%;
+  float: left;
+  text-align: center;
+}
+/* .inner h1{
+    text-align: center;
+} */
+/* .inner p{
+    text-align: center;
+} */
 .first-column{
     float: left;
     width: 48%;
@@ -70,9 +101,21 @@
     height: 300px;
     margin-right: 4%;
 }
+.first-column img{
+  width: 100%;
+}
 .second-column{
     float: left;
     width: 48%;
     background-color: yellow;
     height: 300px;
+}
+.second-column img{
+  width: 100%;
+}
+.more-button {
+  background-color: #5385c1;
+    border: none;
+    padding: 7px 20px 5px 17px;
+    color: white;
 }
