@@ -4,6 +4,7 @@
     height: 400px;
     
 }
+
 .inner{
     width: 1280px;
     /* background-color: white; */
@@ -24,15 +25,34 @@
 }
 .logo {
     display: inline;
+    color: white;
+    maring-top: 5%;
+
 }
 .navigation {
     float: right;
-
+    
 }
+.navigation ul li{
+  float: left;
+  list-style-type: none;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color: white;
+}
+.lipadding-left {
+  padding-left: 20px;
+}
+
 
 .hero_content_wrap{
   color: white;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 1.5rem;
 }
+
 .box1, .box2, .box3{
   margin-top: 10%;
 }
@@ -81,7 +101,9 @@
   text-align: center;
 }
 .peoplebox1,.peoplebox2, .peoplebox3, .peoplebox4 {
+  padding-top: 5%;
   color: white;
+  padding-bottom: 5%;
 }
 .peoplebox4 {
   margin-left: 4%;
